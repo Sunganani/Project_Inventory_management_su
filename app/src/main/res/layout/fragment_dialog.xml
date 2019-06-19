@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.susu.inventory_management_susu.DialogFragment"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/pending_transaction_items"
+        android:layout_width="405dp"
+        android:layout_height="320dp"/>
+
+    <TextView
+        android:id="@+id/barcode_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/input_padding"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorFAB"
+        android:textColor="@color/text_white"
+        android:text="@string/total"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/save_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/input_padding"
+        android:drawableLeft="@drawable/ic_add_white_24dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/text_white"
+        android:text="@string/traNsact"
+        android:textStyle="bold"/>
+
+</LinearLayout>

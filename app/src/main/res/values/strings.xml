@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Inventory_management</string>
+    <string name="title_transaction">TRANSACTION</string>
+    <string name="title_inventory">INVENTORIES</string>
+    <string name="title_add_inventory">ADD</string>
+    <string name="btn_scan">SCAN BARCODE</string>
+    <string name="recent_label">START TRANSACTION</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_add_item_name">Item Name</string>
+    <string name="hint_add_item_price">Item Price</string>
+    <string name="hint_add_item_date">Date Added</string>
+    <string name="add_inventory">ADD INVENTORY</string>
+    <string name="check_scan">Scan a Barcode</string>
+    <string name="save_inventory">SAVE</string>
+    <string name="title_activity_stock">Stock</string>
+    <string name="all_inventory">ALL INVENTORIES</string>
+    <string name="item_name_label">NAME : </string>
+    <string name="item_barcode_label">BARCODE : </string>
+    <string name="item_type_label">TYPE : </string>
+    <string name="item_date_label">DATE : </string>
+    <string name="item_price_label">PRICE : </string>
+    <string name="item_description_label">DESCRIPTION : </string>
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+    <string name="inventory_preview">PREVIEW ASSET</string>
+    <string name="price">K200, 000.00</string>
+    <string name="transaction_add">ADD TRANSACTION ITEM</string>
+    <string name="scan_barcode">SCAN BARCODE</string>
+    <string name="filter">SET FILTERS</string>
+    <string name="from">FROM</string>
+    <string name="to">TO</string>
+    <string name="by_date">BY DATE</string>
+    <string name="by_type">BY TYPE</string>
+    <string name="set">SET</string>
+    <string name="report">REPORTS</string>
+    <string name="search">SEARCH</string>
+    <string name="filter_report">SORT</string>
+    <string name="generate">GENERATE REPORT</string>
+    <string name="date_start">FROM</string>
+    <string name="date_end">TO</string>
+    <string name="report_hint">Generate report based on filters</string>
+    <string name="item_name">ITEM NAME</string>
+    <string name="item_price">ITEM PRICE</string>
+    <string name="item_barcode">ITEM BARCODE</string>
+    <string name="total">TOTAL AMOUNT</string>
+    <string name="traNsact">TRANSACT</string>
+    <string name="quantity">quantity</string>
+    <string name="barcode">barcode</string>
+    <string name="sold">SOLD</string>
+    <string name="remaining"> REMAINING </string>
+    <string name="units">Units</string>
+    <string name="item_quantity">item quantity</string>
+    <string name="in_stock"> IN STOCK</string>
+    <string name="summary_report">SUMMARY REPORT</string>
+    <string name="in">IN</string>
+    <string name="out">OUT</string>
+    <!--<string name="contity"></string>-->
+
+    <string name="sample_text1">
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality,"
+    </string>
+    <string name="sample_text2">
+        KAZINGA
+    </string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>

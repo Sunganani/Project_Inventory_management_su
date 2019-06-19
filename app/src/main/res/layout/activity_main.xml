@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:name="com.susu.inventory.Transaction"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".9" />
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/scan_btn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center|bottom"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:clickable="true"-->
+        <!--android:focusable="true"-->
+        <!--android:src="@drawable/ic_camera_alt_white_24dp"-->
+        <!--android:tint="@android:color/transparent"-->
+
+        <!--/>-->
+
+    <Button
+        android:id="@+id/transact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:padding="@dimen/input_padding"
+        android:text="@string/traNsact"
+        android:textColor="@color/text_white"
+        android:background="@color/colorPrimary"
+        android:layout_margin="@dimen/input_margin"
+        android:visibility="gone"
+        />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/navigation" />
+
+</LinearLayout>
